@@ -695,8 +695,8 @@ footer #icones i {
 
     .zoom:hover {
         transform: scale(1);
-        transition: transform 0.3s ease-in-out;
-        box-shadow: -10px 10px 16px #000000;
+        transition: none;
+        box-shadow: none;
     }
 
 }
