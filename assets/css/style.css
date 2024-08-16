@@ -647,7 +647,8 @@ footer #icones i {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin: 1em 2em;
+        width: 100%;
+        margin: 1em 0em;
         font-size: 1.5em;
         color: var(--third-color);
         text-align: center;
