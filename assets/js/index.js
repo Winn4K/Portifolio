@@ -6,3 +6,9 @@ window.addEventListener('scroll', function() {
         header.classList.remove('fixed-header');
     }
 });
+
+const logo = document.getElementById('logo');
+
+logo.addEventListener('click', () => {
+    window.scroll(0, 0);
+});
