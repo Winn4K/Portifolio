@@ -376,18 +376,18 @@ footer #icones i {
         display: flex;
         flex-direction: column;
         width: fit-content;
-        gap: 30px;
+        gap: 1em;
         color: var(--primary-color);
-        padding: 20px 3.7em;
+        padding: 1em 3.7em;
     }
 
     header nav ul {
-        gap: 22px;
+        gap: 1em;
     }
 
     header nav ul li{
         border-right: solid 1px #363636;
-        padding-right: 20px;
+        padding-right: 1em;
     }
 
     header nav ul li:last-child {
@@ -396,24 +396,24 @@ footer #icones i {
     }
 
     #first-section {
-        margin: 0px 15px;
-        padding: 100px 0px;
+        margin: 0px 1em;
+        padding: 7.5em 0px;
         color: var(--secondary-color);
-        line-height: 50px;
+        line-height: 1em;
     }
 
     #first-section-div {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        gap: 50px;
+        gap: 3em;
     }
 
     #first-section-banner {
         display: flex;
         background-color: var(--primary-color);
-        width: 250px;
-        height: 250px;
+        width: 15em;
+        height: 15em;
         border-radius: 50%;
         vertical-align: middle;
     }
@@ -428,7 +428,7 @@ footer #icones i {
     }
     
     #first-section-banner .foguete {
-        width: 50px;
+        width: 3.1em;
         object-fit: contain;
         position: absolute;
         animation-duration: 5s;
@@ -438,32 +438,32 @@ footer #icones i {
     
     #first-section-banner #foguete1 {
         animation-name: foguete3;
-        margin: 10px 0px 0px 140px;
+        margin: 1em 0 0 8em;
         rotate: 65deg;
     }
     
     #first-section-banner #foguete2 {
         animation-name: foguete4;
-        margin: 20px 0px 0px 30px;
+        margin: 1.1em 0 0 2em;
         rotate: 300deg;
     }
 
     #first-section h5 {
-        font-size: 30px;
+        font-size: 2em;
         color: var(--primary-color);
     }
     
     #first-section h1 {
-        font-size: 55px;
+        font-size: 3.4em;
     }
     
     #first-section h3 {
-        font-size: 30px;
+        font-size: 1.8em;
         color: var(--third-color);
     }
     
     #first-section h4 {
-        font-size: 25px;
+        font-size: 1.7em;
         font-weight: 300;
         color: var(--third-color);
     }
@@ -479,19 +479,19 @@ footer #icones i {
     #first-section-text ul {
         display: flex;
         flex-direction: row;
-        gap: 20px;
+        gap: 1em;
         list-style: none;
     }
 
     #sobre-section {
-        padding: 50px 0;
+        padding: 3em 0;
         background-color: #212121;
     }
 
     #sobre-section-div {
         display: flex;
         flex-direction: column;
-        gap: 50px;
+        gap: 1em;
         width: 100%;
         align-items: center;
         text-align: center;
@@ -505,22 +505,22 @@ footer #icones i {
     
     #sobre-section p {
         color: var(--third-color);
-        font-size: 25px;
+        font-size: 1.5em;
         font-weight: 300;
-        margin: 0 20px;
+        margin: 0 1em;
     }
     
     #sobre-section-banner {
         background-color: var(--primary-color);
-        width: 300px;
-        height: 300px;
+        width: 19em;
+        height: 19em;
         border-radius: 50%;
         text-align: center;
     }
     
     #sobre-section-banner img {
         border-radius: 50%;
-        height: 290px;
+        height: 18.5em;
         object-fit: cover;
         animation-name: foto;
         animation-duration: 5s;
@@ -529,32 +529,32 @@ footer #icones i {
     }
 
     #projetos-section {
-        margin: 50px 30px;
+        margin: 3em 1.8em;
         text-align: center;
     }
     
     .projeto {
         background-color: var(--secondary-background);
-        border-radius: 20px;
-        width: 350px;
-        height: 550px;
+        border-radius: 1.5em;
+        width: 22em;
+        height: 33em;
         text-align: center;
         box-shadow: -5px 5px 8px #000000;
-        margin-bottom: 20px;
+        margin-bottom: 1.5em;
     }
     
     .projeto img {
         width: 100%;
-        border-radius: 20px 20px 0 0;
+        border-radius: 1.5em 1.5em 0 0;
     }
     
     .projeto h5 {
-        font-size: 35px;
+        font-size: 2.1em;
         color: var(--secondary-color);
     }
     
     .projeto p {
-        font-size: 27px;
+        font-size: 1.5em;
         color: var(--third-color);
     }
     
@@ -562,16 +562,16 @@ footer #icones i {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 5px;
+        gap: 0.5em;
         margin: 20px;
     }
     
     #projetos-section h1 {
-        margin-top: 80px;
+        margin-top: 1em;
         text-align: center;
         color: var(--primary-color);
         font-size: var(--fonte-size-subtitulos);
-        margin-bottom: 50px;
+        margin-bottom: 1em;
     }
     
     #projetos-section #projetos {
@@ -579,7 +579,7 @@ footer #icones i {
         flex-direction: column;
         align-items: center;
         justify-items: center;
-        gap: 20px;
+        gap: 1em;
     }
 
     #tecnologias-section {
@@ -590,44 +590,44 @@ footer #icones i {
         text-align: center;
         font-size: var(--fonte-size-subtitulos);
         color: var(--primary-color);
-        padding-top: 80px;
-        margin-bottom: 50px;
+        padding-top: 1em;
+        margin-bottom: 1em;
     }
     
     #tecnologias {
-        margin: 50px 30px;
+        margin: 1em 0.6em;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-items: center;
-        gap: 10px;
+        gap: 0.1em;
     }
     
     .card-tecnologia {
         background-color: var(--primary-background);
-        border-radius: 20px;
-        width: 380px;
-        height: 450px;
+        border-radius: 1.5em;
+        width: 24em;
+        height: 30em;
         text-align: center;
         box-shadow: -5px 5px 8px #000000;
-        margin-bottom: 50px;
+        margin-bottom: 3.5em;
     }
     
     .card-tecnologia i {
-        font-size: 100px;
+        font-size: 6em;
         color: var(--primary-color);
-        margin: 10px 0px;
+        margin: 0.2em 0;
     }
     
     .card-tecnologia h5 {
-        font-size: 35px;
-        margin: 0 20px;
+        font-size: 2.3em;
+        margin: 0 1em;
         color: var(--secondary-color);
     }
     
     .card-tecnologia p {
-        font-size: 27px;
-        margin: 0 20px;
+        font-size: 1.6em;
+        margin: 0 1em;
         color: var(--third-color);
     }
 
@@ -635,11 +635,16 @@ footer #icones i {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin: 20px 30px;
-        font-size: 25px;
+        margin: 1em 2em;
+        font-size: 1.5em;
         color: var(--third-color);
         text-align: center;
         align-items: center;
+    }
+
+    footer h2 {
+        margin-top: 0.5em;
+        line-height: 0.2em;
     }
 
     footer #footer-div-copy {
@@ -648,25 +653,25 @@ footer #icones i {
     }
     
     footer #copyright {
-        margin: 25px 0px;
+        margin: 1.5em 0;
     }
 
     
     footer #icones {
         display: flex;
         flex-direction: row;
-        gap: 20px;
+        gap: 1em;
         justify-content: center;
-        margin: 20px 0;
+        margin: 1em 0;
     }
 
     footer h3 {
-        font-size: 30px;
+        font-size: 1.3em;
         color: var(--secondary-color);
     }
 
     footer #icones i {
-        font-size: 30px;
+        font-size: 1.4em;
         color: var(--secondary-color);
     }
 
