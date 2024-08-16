@@ -395,6 +395,17 @@ footer #icones i {
         padding-right: 0;
     }
 
+    .fixed-header {
+        position: relative !important;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: var(--header-scrolado);
+        color: var(--third-color) !important;
+        box-shadow: 10px 10px 40px black;
+    }
+
     #first-section {
         margin: 0px 1em;
         padding: 7.5em 0px;
