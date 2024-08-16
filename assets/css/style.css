@@ -699,6 +699,14 @@ footer #icones i {
         box-shadow: none;
     }
 
+    .change-color-primary:hover {
+        background-color: var(--secondary-background);
+    }
+    
+    .change-color-secondary:hover {
+        background-color: var(--primary-background);
+    }
+
 }
 
 
