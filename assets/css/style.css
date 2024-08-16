@@ -618,8 +618,8 @@ footer #icones i {
     .card-tecnologia {
         background-color: var(--primary-background);
         border-radius: 1.5em;
-        width: 24em;
-        height: 30em;
+        width: 20em;
+        height: 26em;
         text-align: center;
         box-shadow: -5px 5px 8px #000000;
         margin-bottom: 3.5em;
@@ -638,7 +638,7 @@ footer #icones i {
     }
     
     .card-tecnologia p {
-        font-size: 1.6em;
+        font-size: 1.3em;
         margin: 0 1em;
         color: var(--third-color);
     }
