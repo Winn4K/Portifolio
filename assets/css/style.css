@@ -5,6 +5,7 @@
     --third-color: #cccccc;
     --primary-background: #0b0b0bf7;
     --secondary-background: #212121;
+    --white-mode: #eeeeee;
     --header-scrolado: #000000e1;
     --fonte-size-subtitulos: 50px;
 }
@@ -25,7 +26,17 @@ header {
     align-items: center;
 }
 
-header h2 a, footer h2 {
+header img {
+    width: 18em;
+    cursor: pointer;
+}
+
+header img:hover {
+    scale: 1.01;
+    transition: 0.3s;
+}
+
+footer h2 {
     font-family: "Great Vibes", cursive;
     color: var(--primary-color);
     text-decoration: none !important;
@@ -59,8 +70,9 @@ header nav ul li a {
     color: inherit;
 }
 
-header nav ul li a:hover {
-    transition: transform 0.3s ease-in-out;
+header nav ul li a:hover, header nav ul li:hover {
+    transform: translateY(-1px);
+    transition: transform 0.2s ease-in-out;
     color: var(--secondary-color) !important;
     text-decoration: underline;
 }
@@ -84,7 +96,7 @@ body {
 
 #first-section {
     margin: 0px 350px;
-    padding: 240px 0px;
+    padding: 200px 0px 220px 0px;
     color: var(--secondary-color);
     line-height: 50px;
 }
@@ -261,6 +273,30 @@ footer #icones i {
     text-align: center;
     box-shadow: -5px 5px 8px #000000;
     margin-bottom: 20px;
+}
+
+.linksProjetos {
+    display: none;
+    flex-direction: row;
+    gap: 70px;
+    justify-content: center;
+    position: absolute;
+    width: 475px;
+    height: 23.2em;
+    border-radius: 20px 20px 0 0;
+    background-color: #000000f6;
+}
+
+.iconesProjetos {
+    margin-top: 2em;
+    font-size: 80px;
+    color: var(--primary-color);
+}
+
+.iconesProjetos:hover {
+    scale: 1.1;
+    transition: 0.5s;
+    text-shadow: -1px -1px 3px #fff;
 }
 
 .projeto img {
@@ -559,6 +595,30 @@ footer #icones i {
         text-align: center;
         box-shadow: -5px 5px 8px #000000;
         margin-bottom: 1.5em;
+    }
+
+    .linksProjetos {
+        display: none;
+        flex-direction: row;
+        gap: 70px;
+        justify-content: center;
+        position: absolute;
+        width: 22.5em;
+        height: 17.6em;
+        border-radius: 20px 20px 0 0;
+        background-color: #000000f6;
+    }
+    
+    .iconesProjetos {
+        margin-top: 1.3em;
+        font-size: 80px;
+        color: var(--primary-color);
+    }
+    
+    .iconesProjetos:hover {
+        scale: 1.1;
+        transition: 0.5s;
+        text-shadow: -1px -1px 3px #fff;
     }
     
     .projeto img {
