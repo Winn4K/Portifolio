@@ -22,7 +22,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     color: var(--primary-color);
-    padding: 20px 400px;
+    padding: 10px 400px;
     align-items: center;
 }
 
@@ -378,7 +378,7 @@ footer #icones i {
     height: 450px;
     text-align: center;
     box-shadow: -5px 5px 8px #000000;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 .card-tecnologia i {
