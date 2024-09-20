@@ -81,13 +81,14 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin: 20px 400px;;
     font-size: 25px;
     color: var(--third-color);
 }
 
 footer #copyright {
-    margin: 25px 0px;
+    margin: 10px 0px;
 }
 
 body {
@@ -731,7 +732,7 @@ footer #icones i {
     }
     
     footer #copyright {
-        margin: 1.5em 0;
+        margin: 1em 0;
     }
 
     
